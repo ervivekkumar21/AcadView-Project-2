@@ -4,14 +4,10 @@
   	<title>CCWIT Websites Home</title>
   	  <meta charset="utf-8">
   		<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  	<!-- Latest compiled and minified bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<!--google-fonts
 		font-family: 'Open Sans', sans-serif;
 		font-family: 'Roboto', sans-serif;
@@ -60,6 +56,38 @@
         background-size: cover;
 
       }
+    .bgimg1{
+      background: url("img/background (19).jpg");
+      color: white;
+    }
+    .bgimg2{
+      background: url("img/background (39).jpg");
+      color: rgb(0,70,0) ;
+    }
+    .bgimg3{
+      background: url("img/background (25).jpg");
+      color: white;
+    }
+    .bgimg4{
+      background: url("img/background (28).jpg");
+      color: White ;
+    }
+    .bgimg5{
+      background: url("img/background (34).jpg");
+      color: Black;
+    }
+    .bgimg6{
+      background: url("img/background (1).jpeg");
+      color: white ;
+    }
+    .bgimg7{
+      background: url("img/background (35).jpg");
+      color: white ;
+    }
+    .bgfooter{
+      background: url("img/background (37).jpg");
+      color: white;
+    }
       .parallax .container {
                   z-index: 3;
                   position: absolute;
@@ -90,6 +118,11 @@
           ul{
             text-transform: uppercase;
           }
+          #map {
+        height: 300px;
+        width: 100%;
+        border-radius: 15px;
+       }
   	</style>
     <!-- Style Sheet Coding Part End Here -->
   </head>
@@ -113,13 +146,14 @@
 			        <li class="active"><a href="#">Home</a></li>
 			        <li><a href="#about">About us</a></li>
               <li><a href="#do">WHAT WE DO</a></li>
-			        <li><a href="#Prod">FAMOUS FREEBIES</a></li>
 			        <li><a href="#Prod">Our Products</a></li>
               <li><a href="#people">TESTIMONIALS</a></li>
               <li><a href="#team">TEAM</a></li>
+			        <li><a href="#number">Numbers Don't Lie</a></li>
+              <li><a href="#place">Where to meet</a></li>
             </ul>
 			      <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">CONTACT us</a></li>
+              <li><a href="#contact">CONTACT us</a></li>
               <li><a href="https://www.facebook.com/CCWIT-175400966270942/" target="_blank"><img src="Img\facebook-4-256.png" width="20px" class="img-circle iconover" alt= "Facebook"></a>
               <li><a href="https://twitter.com/CCWITechnology" target="_blank"><img src="Img\twitter-4-256.png" width="20px" class="img-circle iconover" alt= "Twitter"></a>
               <li><a href="https://plus.google.com/102266845949019933568" target="_blank"><img src="Img\google-plus-4-256.png" width="20px" class="img-circle iconover" alt= "Google+"></a>
@@ -145,17 +179,18 @@
   <!-- parallax Section End Here -->
 
 <!-- About us Section Start From Here -->
-        <div class="jumbotron section section-we-are-1 text-center" id="about">
+        <div class="bgimg1 section section-we-are-1 text-center" id="about">
+          <br><br>
                  <div class="text-area">
                      <div class="container">
                          <div class="row">
                              <div class="title" id="animationTest">
                                  <h2>About CCWIT</h2>
                                  <div  style="color: white; padding: 0px 0px 30px 0px;"><h4>__________ &nbsp;&nbsp;&nbsp;<sub><sub>∎</sub></sub>&nbsp;&nbsp;&nbsp; __________</h4></div>
-                                 <p class="large">
+                                 <p class="large"><big>
                                      CCWIT (Complex Computer World & Information Technology) is a Team of Web Developers startup that creates design tools that make the web development process faster and easier. We love the web and care deeply for how users interact with a digital product.
                                       We power businesses and individuals to create better looking web projects around the world.
-                                 </p>
+                                 </big></p>
                              </div>
                          </div>
                      </div>
@@ -186,12 +221,13 @@
                                      </div>
                                  </div>
                              </div>
+                             <br><br>
                          </div>
-             </div>
 <!-- About us Section End Here -->
 
 <!-- What we Do  Section Start From Here -->
-                     <div class="section section-we-do-2 text-center" id="do">
+                     <div class="bgimg2 section section-we-do-2 text-center" id="do">
+                       <br><br>
                                    <div class="container">
                                        <div class="row">
                                            <div class="title add-animation">
@@ -217,10 +253,13 @@
                                        </div>
                                    </div>
                                </div>
+                               <br><br>
+                             </div>
 <!-- What we Do  Section End Here -->
-<hr>
+
 <!-- Our Famous Products  Section Start From Here -->
-                               <div class="section section-we-are-1 text-center" id="Prod">
+                               <div class="bgimg3 section section-we-are-1 text-center" id="Prod">
+                                 <br><br>
                                         <div class="text-area">
                                             <div class="container">
                                                 <div class="row">
@@ -268,41 +307,45 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <br><br>
                                                 </div>
 <!-- Our Famous Products  Section End Here -->
 
 <!-- What people think  Section Start From Here -->
-                                        <div class="jumbotron section section-clients-2" id="people">
-                                              <div class="container">
+                                        <div class="bgimg4 section section-clients-2" id="people">
+                                          <br><br>
+                                              <div class="container text-center">
                                                    <div class="title add-animation">
                                                        <h2>What people think...</h2>
                                                         <div  style="color: white; padding: 0px 0px 30px 0px;"><h4>__________ &nbsp;&nbsp;&nbsp;<sub><sub>∎</sub></sub>&nbsp;&nbsp;&nbsp; __________</h4></div>
                                                   </div>
                                                   <div class="tab-content">
                                                        <div id="gau" class="tab-pane fade in active">
-                                                           <h3>
-                                                               Hey CCWT team. Absolutely love your work! It's a God-send for a developer like me who doesn't know his ass from great design! Keep up the awesome work!
-                                                           </h3>
+                                                           <h4>
+                                                               Hey CCWT team. Absolutely love your work! It's a God-send for a developer like me
+                                                               who doesn't know his ass from great design! Keep up the awesome work!
+                                                           </h4>
                                                        </div>
-                                                       <div class="tab-pane fade in active" id="rai">
-                                                           <h3>Hello there, My Name is Sachin Rai. You're simply awesome. I would love to contact you. I'm a new front-end developer but everytime I checkout your stuff it gives me idea to make my own stuff. Keep it up :)</h3>
+                                                       <div class="tab-pane fade in" id="rai">
+                                                           <h4>Hello there, My Name is Sachin Rai. You're simply awesome. I would love to contact you. I'm a new front-end developer but everytime I checkout your stuff it gives me idea to make my own stuff. Keep it up :)</h4>
                                                        </div>
-                                                       <div class="tab-pane fade in active" id="qad">
-                                                           <h3>
-                                                               Finding a website with a vast purpose is always inspiring to continue front web development. But you did Magic my friends. Keep going and be sure if there is a donation, I'm in. Thanks for your daily hardworking. hope to meet u guys one day.
-                                                           <h3>
+                                                       <div class="tab-pane fade in" id="qad">
+                                                           <h4>
+                                                               Finding a website with a vast purpose is always inspiring to continue front web development. But you did Magic my friends.
+                                                                Keep going and be sure if there is a donation, I'm in. Thanks for your daily hardworking. hope to meet u guys one day.
+                                                           </h4>
                                                        </div>
-                                                       <div class="tab-pane fade in active" id="mis">
-                                                           <h3>Hi, your site and all the stuff on it looks simply awesome, thank's for sharing. Love this. Greetings from Germany!</h3>
+                                                       <div class="tab-pane fade in" id="mis">
+                                                           <h4>Hi, your site and all the stuff on it looks simply awesome, thank's for sharing. Love this. Greetings from Germany!</h4>
                                                        </div>
                                                    </div>
                                                  </div>
+                                                 <br><br>
 
-<hr>
                                                 <div class="row">
                                                   <div class="col-sm-3"></div>
                                                     <div class="col-sm-6">
-                                                      <ul class="nav nav-pills" style="text-align:center;">
+                                                      <ul class="nav nav-pills nav-justified" style="text-align:center;">
                                                        <li class="active"><a data-toggle="pill" href="#gau" >Gaurav Singh</a></li>
                                                        <li><a data-toggle="pill" href="#rai" >Sachin Rai</a></li>
                                                        <li><a data-toggle="pill" href="#qad" >Sahreen Qadri</a></li>
@@ -311,15 +354,14 @@
                                                  </div>
                                                    <div class="col-sm-3"></div>
                                                </div>
-
+                                        <br><br>
                                          </div>
-<br>
-<br>
 <!-- What people think  Section End Here -->
 
 <!-- Meet our Team Section Start From Here -->
-                                        <div class="section section-team-2" id="team">
-                                               <div class="container">
+                                        <div class="bgimg5 section section-team-2" id="team">
+                                          <br><br>
+                                               <div class="container text-center">
                                                    <div class="text-area">
                                                        <div class="title add-animation">
                                                            <h2>Meet our Team</h2>
@@ -399,17 +441,17 @@
                                                          </div>
                                                         </div>
                                                        </div>
+                                                       <br><br>
                                                    </div>
-                                               </div>
-                                           </div>
 <!-- Meet our Team Section End Here -->
 
 <!-- No Don't Lie Section Start From Here -->
-<div class="jumbotron section section-we-are-1 text-center" id="number">
+<div class="bgimg6 section section-we-are-1 text-center" id="number">
+  <br><br>
          <div class="text-area">
              <div class="container">
                  <div class="row">
-                     <div class="title" id="animationTest">
+                     <div class="title" id="number">
                        <h2>Numbers Don't Lie</h2>
                              <div  style="color: white; padding: 0px 0px 30px 0px;"><h4>__________ &nbsp;&nbsp;&nbsp;<sub><sub>∎</sub></sub>&nbsp;&nbsp;&nbsp; __________</h4></div>
                         </div>
@@ -422,11 +464,13 @@
 </div>
 </div>
 </div>
+<br><br>
 </div>
 <!-- No Don't Lie Section End Here -->
 
 <!-- Where to meet ? Section Start From Here -->
-                          <div class="section section-we-are-1 text-center" id="place">
+                          <div class="bgimg7 section section-we-are-1 text-center" id="place">
+                            <br><br>
                                    <div class="text-area">
                                        <div class="container">
                                            <div class="row">
@@ -442,35 +486,41 @@
                                                         </h4>
 
                                 <!-- google Map Start From Here -->
-                                                      <div id="googleMap" style="width:100%;height:400px;"></div>
-                                                    <script>
-                                                    function myMap() {
-                                                    var mapProp= {
-                                                        center:new google.maps.LatLng(28.631257, 77.222047),
-                                                        zoom:7,
-
-                                                    };
-                                                    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-                                                    }
-                                                    </script>
-
-                                                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVKMKV_duSAYgmuKXOr6X9jHOEVDRTpYQ&callback=myMap"></script>
+                                                  <div id="map"></div>
+                                                           <script>
+                                                             function initMap() {
+                                                               var uluru = {lat: 28.631195, lng: 77.222053};
+                                                               var map = new google.maps.Map(document.getElementById('map'), {
+                                                                 zoom: 7,
+                                                                 center: uluru
+                                                               });
+                                                               var marker = new google.maps.Marker({
+                                                                 position: uluru,
+                                                                 map: map
+                                                               });
+                                                             }
+                                                           </script>
+                                                           <script async defer
+                                                           src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVKMKV_duSAYgmuKXOr6X9jHOEVDRTpYQ&callback=initMap">
+                                                           </script>
                                     <!-- google Map EndHere -->
                                             </div>
                                             </div>
                                             </div>
-                                            </div><br>
+                                            <br><br>
+                                            </div>
 <!-- Where to meet ? Section End Here -->
 
 <!-- Footer Section Start From Here -->
-          <div style="background: black; color: white;"><br>
+          <div class="bgfooter" id=contact>
+            <br>
               <footer class="footer">
                                     <div class="col-md-8 text-center">
                                     <h4>
                                     <span style="padding:20px;"><a href="#">Home</a></span>
-                                    <span style="padding:20px;"><a target="_blank" href="#">Contact</a></span>
-                                    <span style="padding:20px;"><a target="_blank" href="#">Blog</a></span>
-                                    <span style="padding:20px;"><a target="_blank" href="#">Sponsorships</a></span>
+                                    <span style="padding:20px;"><a target="_blank" href="http://ccwit.webs.com/contact-us">Contact</a></span>
+                                    <span style="padding:20px;"><a target="_blank" href="http://ccwit.webs.com/">Blog</a></span>
+                                    <span style="padding:20px;"><a target="_blank" href="http://ccwit.webs.com/">Sponsorships</a></span>
                                   </h4>
                                   </div>
                                   <div class="col-md-4"></div>
