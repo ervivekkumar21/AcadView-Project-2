@@ -1,4 +1,6 @@
-# AcadView-Project-2 A-Professional-Responsive-Business-Website-of-CCWIT
+# AV-Project-2 A-Professional-Responsive-Business-Website-of-CCWIT
+
+## This is a skill test project in web development
 
 This repo hosts the sources of the CCWIT website at http://ccwitwebhome.netlify.com/
 
